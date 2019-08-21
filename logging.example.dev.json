@@ -1,0 +1,13 @@
+{
+  "level": "debug",
+  "encoding": "json",
+  "development": true,
+  "outputPaths": ["stdout"],
+  "errorOutputPaths": ["stderr"],
+  "initialFields": {"foo": "bar"},
+  "encoderConfig": {
+    "messageKey": "message",
+    "levelKey": "level",
+    "levelEncoder": "lowercase"
+  }
+}
