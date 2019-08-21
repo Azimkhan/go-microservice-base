@@ -25,8 +25,8 @@ func main() {
 // Read configuration from file and env variables
 func loadConfig() *Config {
 	loader := confita.NewLoader(
-		env.NewBackend(),
 		file.NewBackend("config.json"),
+		env.NewBackend(),
 	)
 	config := Config{
 		"logger.json",
